@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const Header = () => {
     return (
-        <div className="fixed top-0 w-full py-5 px-30 border-b-gray-100 border-1 rounded-b-full">
+        <div className="fixed top-0 w-full z-50 px-30 bg-background/95 backdrop-blur border-b-gray-100 border-1 rounded-b-full">
             <div className="flex justify-between">
                 <Link href="/" className="flex items-center justify-center gap-1">
                     <Image src="/logo.svg" width={50} height={50} alt="logo" />
-                    <p className="text-2xl font-medium">Peace.ai</p>
+                    <p className="text-2xl font-medium">PeaceAI</p>
                 </Link>
 
                 <Image src="/parrot.gif" height={100} width={100} alt="parrot" />
